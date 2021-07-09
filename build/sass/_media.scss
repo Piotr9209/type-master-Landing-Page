@@ -1,0 +1,220 @@
+@import '_variables.scss';
+@import '_fonts.scss';
+
+
+.upPage{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 23px 24px 64px 24px;
+   div{
+       &:nth-of-type(1){
+        height: 40px;
+        width: 40px;
+       }
+       .sales{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        height:48px;
+        width: 151px;
+        border-radius: 5px;
+        background-color: $color-button-secondary;
+        color:$color-button-primary-secondary;
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 900;
+        font-size:16px;
+        line-height: 26px;
+        text-transform: uppercase;
+        border:none;
+       }
+   }
+}
+
+.firstArticle{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 24px 0 24px;
+    div{
+        p:first-of-type{
+            font-family: $font-family;
+            font-style:normal;
+            font-weight: 900;
+            font-size: 48px;
+            line-height: 48px;
+            text-transform: uppercase;
+            margin-bottom: 32px;
+        }
+        p:last-of-type{
+            font-family: $font-family;
+            font-style:normal;
+            font-weight: 500;
+            font-size:16px;
+            line-height: 26px;
+            color: $color-three;
+            margin-bottom: 32px;
+        }
+            .sales{
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+                height:48px;
+                width: 150px;
+                border-radius: 5px;
+                background-color: $color-button;
+                color:$color-four;
+                font-family: $font-family;
+                font-style: normal;
+                font-weight: 700;
+                font-size:16px;
+                line-height: 26px;
+                text-transform: uppercase;
+                border:none;
+               }
+               span{
+                   display: inline-block;
+                   font-family: $font-family;
+                   font-style: normal;
+                   font-size:16px;
+                   font-weight: 700;
+                   line-height: 26px;
+                   color:$color-three;
+                   text-transform: uppercase;
+                   margin-left:32px;
+               }
+        &:last-of-type{
+            display:none;
+        }
+    }
+    .image{
+        background-image: url("../../assets/mobile/image-keyboard.jpg");
+        background-repeat:no-repeat;
+        background-size:contain;
+        height: 331px;
+        width: 372px;
+        margin-top: 64px;
+        margin-left:24px;
+        border-radius: 15px;
+    }
+}
+.secondArticle{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top:24px;
+
+    div{
+        &:first-of-type{
+            display:none;
+        }
+        &:last-of-type{
+            width: 100%;
+            text-align: center;
+            font-family: $font-family;
+            font-style: normal;
+            p{
+                &:first-of-type{
+                    font-weight: 900;
+                    font-size: 32px;
+                    line-height: 36px;
+                    text-transform: uppercase;
+                    margin: 75px 60px 24px 60px;
+                }
+                &:last-of-type{
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 26px;
+                    margin-left: 24px;
+                    margin-right: 24px;
+                }
+            }
+        }
+    }
+    .image-orange{
+        background-image: url('../../assets/mobile/image-phone-and-keyboard.jpg');
+        background-repeat:no-repeat;
+        background-size:contain;
+        height: 193px;
+        width: 129px;
+        margin-left:-22px;
+        border-radius: 15px;   
+        box-shadow: inset 0 0 0px 100px rgba(241, 103, 24, 0.75);
+    }
+
+    .image-keyboard{
+        background-image: url('../../assets/mobile/image-glass-and-keyboard.jpg');
+        background-repeat:no-repeat;
+        background-size:contain;
+        height: 193px;
+        width:220px;
+        margin-left:24px;
+        margin-right: 24px;
+        border-radius: 15px;
+    }
+}
+
+.nav{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    div{
+        p{
+            font-family: $font-family;
+            font-style:normal;
+            text-align: center;
+            margin-left: 24px;
+            margin-right: 24px;
+        }
+        .nav-text{
+            font-weight: 900;
+            margin-top:48px;
+            font-size: 24px;
+            line-height: 28px;
+            color: $color-button-primary-secondary;
+            text-transform: uppercase;
+        }
+        .information-text{
+            font-weight: 500;
+            font-size:16px;
+            line-height: 26px;
+            color: $color-three;
+            margin-top:24px;
+        }
+        &:nth-of-type(1){
+            margin-top:111px;
+        }
+        &:nth-of-type(2){
+            margin-top:64px;
+        }
+        &:nth-of-type(3){
+            margin-top:64px;
+        }
+        &:nth-of-type(4){
+            margin-top:64px;
+        }
+        svg{
+            margin-left: 167.5px;
+            margin-right: 176.5px;
+            border-radius: 5px;
+        }
+}
+}
+footer{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    p{
+        font-family: $font-family;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: $color-three;
+        margin: 96px 52px 50px 51px;
+    }
+}
