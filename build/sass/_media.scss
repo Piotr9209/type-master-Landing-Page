@@ -6,16 +6,19 @@
     display: flex;
     justify-content:space-between;
     align-items: center;
-    margin: 23px 24px 64px 24px;
    div{
        &:nth-of-type(1){
         height: 40px;
         width: 40px;
+        margin-top:23px;
+        margin-bottom: 64px;
+        margin-left: 24px;
        }
        .sales{
         text-align: center;
-        margin-left: auto;
-        margin-right: auto;
+        margin-top:23px;
+        margin-bottom: 64px;
+        margin-right: 24px;
         height:48px;
         width: 151px;
         border-radius: 5px;
@@ -216,5 +219,276 @@ footer{
         line-height: 26px;
         color: $color-three;
         margin: 96px 52px 50px 51px;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .upPage{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+       div{
+           &:nth-of-type(1){
+            height: 40px;
+            width: 40px;
+            margin-top:40px;
+            margin-left: 39px;
+           }
+           .sales{
+            text-align: center;
+            margin-top:23px;
+            margin-right: 24px;
+            height:48px;
+            width: 151px;
+            border-radius: 5px;
+            background-color: $color-button-secondary;
+            color:$color-button-primary-secondary;
+            font-family: $font-family;
+            font-style: normal;
+            font-weight: 700;
+            font-size:16px;
+            line-height: 26px;
+            text-transform: uppercase;
+            border:none;
+           }
+       }
+    }
+
+    .firstArticle{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        div{
+            p:first-of-type{
+                height: 96px;
+                width: 339px;
+                font-family: $font-family;
+                font-style:normal;
+                font-weight: 900;
+                font-size: 48px;
+                line-height: 48px;
+                text-transform: uppercase;
+                margin-top:0;
+                margin-left: 39px;
+                margin-right: 69px;
+                margin-bottom: 34px;
+            }
+            p:last-of-type{
+                height: 68px;
+                width: 339px;
+                font-family: $font-family;
+                font-style:normal;
+                font-weight: 500;
+                font-size:16px;
+                line-height: 26px;
+                color: $color-three;
+                margin-left: 39px;
+                margin-right: 69px;
+                margin-bottom: 39px;
+            }
+                .sales{
+                    text-align: center;
+                    margin-left: 39px;
+                    margin-right: 27px;
+                    height:58px;
+                    width: 175px;
+                    border-radius: 5px;
+                    background-color: $color-button;
+                    color:$color-four;
+                    font-family: $font-family;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size:16px;
+                    line-height: 26px;
+                    text-transform: uppercase;
+                    border:none;
+                   }
+                   span{
+                       display: inline-block;
+                       height: 26px;
+                       width: 127px;
+                       margin-top:55px;
+                       margin-left: 0;
+                       margin-right:69px;
+                       font-family: $font-family;
+                       font-style: normal;
+                       font-size:16px;
+                       font-weight: 700;
+                       line-height: 26px;
+                       color:$color-three;
+                       text-transform: uppercase;
+                   }
+            &:last-of-type{
+                display:none;
+            }
+        }
+        .image{
+            background-image: url("../../assets/tablet/image-keyboard.jpg");
+            background-repeat:no-repeat;
+            background-size:cover;
+            background-position: left 0 top 0;
+            height: 425px;
+            width: 478px;
+            margin-top: 0;
+            margin-left: 0;
+            border-radius: 0;
+            border-top-left-radius: 15px;
+            border-bottom-left-radius: 15px;
+        }
+    }
+    .secondArticle{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top:40px;
+        div{
+            &:first-of-type{
+                display:none;
+            }
+            &:last-of-type{
+                display:flex;
+                flex-direction: row;
+                justify-content: space-between;
+                text-align:left;
+                font-family: $font-family;
+                font-style: normal;
+                height: 108px;
+                width: 689px;
+                margin-top:72px;
+                margin-left:39px;
+                margin-right: 40px;
+                p{
+                    &:first-of-type{
+                        display:inline-block;
+                        height: 108px;
+                        width: 255px;
+                        font-weight: 900;
+                        font-size: 32px;
+                        line-height: 36px;
+                        text-transform: uppercase;
+                        margin: 0 36px 142px 0;
+                    }
+                    &:last-of-type{
+                        display:inline-block;
+                        height: 78px;
+                        width: 398px;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 26px;
+                        margin: 0 0 157px 0;
+                    }
+                }
+            }
+        }
+        .image-orange{
+            background-image: url('../../assets/tablet/image-phone-and-keyboard.jpg');
+            background-repeat:no-repeat;
+            background-size:214px;
+            background-position: left 0 top 0;
+            height: 320px;
+            width: 214px;
+            margin-left:37px;
+            border-radius: 15px;   
+            box-shadow: inset 0 0 0px 1000px rgba(241, 103, 24, 0.75);
+        }
+    
+        .image-keyboard{
+            background-image: url('../../assets/tablet/image-glass-and-keyboard.jpg');
+            background-repeat:no-repeat;
+            background-size:445px;
+            height: 320px;
+            width: 445px;
+            margin-left:30px;
+            margin-right: 40px;
+            border-radius: 15px;
+        }
+    }
+
+    .nav{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        height: 650px;
+        width: 631px;
+        margin-top: 142px;
+        margin-left: 39px;
+        margin-right: 98px;
+        div{
+            p{
+                font-family: $font-family;
+                font-style:normal;
+                text-align: center;
+                margin-left: 0;
+                margin-right: 0;
+            }
+            .nav-text{
+                font-weight: 900;
+                margin-top:40px;
+                font-size: 24px;
+                line-height: 28px;
+                color: $color-button-primary-secondary;
+                text-transform: uppercase;
+                text-align: left;
+            }
+            .information-text{
+                font-weight: 500;
+                font-size:16px;
+                line-height: 26px;
+                color: $color-three;
+                margin-top:24px;
+                text-align: left;
+            }
+            &:nth-of-type(1){
+                height: 289px;
+                width: 281px;
+                margin-top:0;
+            }
+            &:nth-of-type(2){
+                height: 289px;
+                width: 281px;
+                margin-top:0;
+                margin-left:69px
+            }
+            &:nth-of-type(3){
+                height: 289px;
+                width: 281px;
+                margin-top:72px;
+            }
+            &:nth-of-type(4){
+                height: 289px;
+                width: 281px;
+                margin-top:72px;
+                margin-left:69px
+            }
+            svg{
+                margin-left: 0;
+                margin-right: 0;
+                border-radius: 5px;
+                text-align: left;
+            }
+    }
+    }
+    footer{
+        display:flex;
+        justify-content: center;
+        text-align: center;
+        p{
+            font-family: $font-family;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 16px;
+            line-height: 26px;
+            color: $color-three;
+            margin: 142px 249px 43px 247px;
+            span{
+                font-weight: 700;
+            }
+        }
     }
 }
