@@ -395,7 +395,6 @@ footer{
             border-radius: 15px;   
             box-shadow: inset 0 0 0px 1000px rgba(241, 103, 24, 0.75);
         }
-    
         .image-keyboard{
             background-image: url('../../assets/tablet/image-glass-and-keyboard.jpg');
             background-repeat:no-repeat;
@@ -486,6 +485,307 @@ footer{
             line-height: 26px;
             color: $color-three;
             margin: 142px 249px 43px 247px;
+            span{
+                font-weight: 700;
+            }
+        }
+    }
+}
+@media screen and (min-width:1280px) {
+    .upPage{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: stretch;
+        margin: 58.12px 159.45px 0 166.45px;
+        transform: rotate(0.04deg);
+        filter:drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+       div{
+           &:nth-of-type(1){
+            height: 40px;
+            width: 40px;
+            margin-top:0;
+            margin-left: 0;
+           }
+           .sales{
+            text-align: center;
+            margin-top:0;
+            margin-right: 0;
+            height:58px;
+            width: 175px;
+            border-radius: 5px;
+            background-color: $color-button-secondary;
+            color:$color-button-primary-secondary;
+            font-family: $font-family;
+            font-style: normal;
+            font-weight: 700;
+            font-size:16px;
+            line-height: 26px;
+            text-transform: uppercase;
+            border:none;
+            &:hover{
+                background-color: $color-button-primary-secondary;
+                color:$color-four;
+                cursor: pointer;
+            }
+           }
+       }
+    }
+    .firstArticle{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: stretch;
+        margin: 0;
+        transform: rotate(0.04deg);
+        div{
+            &:first-of-type{
+                width: 40%;
+                margin-top:139.17px;
+                margin-left: 166.26px;
+                margin-right: 124.69px;
+                margin-bottom: 0;
+            }
+            p:first-of-type{
+                height: 112px;
+                width: 445px;
+                font-family: $font-family;
+                font-style:normal;
+                font-weight: 900;
+                font-size: 48px;
+                line-height: 48px;
+                text-transform: uppercase;
+                margin-top:0;
+                margin-left: 0;
+                margin-right: 0;
+                margin-bottom: 0;
+            }
+            p:last-of-type{
+                height: 78px;
+                width: 445px;
+                font-family: $font-family;
+                font-style:normal;
+                font-weight: 500;
+                font-size:18px;
+                line-height: 26px;
+                color: $color-three;
+                margin-top:23.67px;
+                margin-left: 0;
+                margin-right: 0;
+                margin-bottom: 0;
+            }
+                .sales{
+                    text-align: center;
+                    margin-top: 39.67px;
+                    margin-left: 0;
+                    margin-right: 39.97px;
+                    height:58px;
+                    width: 175px;
+                    border-radius: 5px;
+                    background-color: $color-button;
+                    color:$color-four;
+                    font-family: $font-family;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size:16px;
+                    line-height: 26px;
+                    text-transform: uppercase;
+                    border:none;
+                    &:hover{
+                        background-color: $color-button-hover;
+                        cursor: pointer;
+                    }
+                   }
+                   span{
+                       display: inline-block;
+                       height: 26px;
+                       width: 127px;
+                       margin-top:55.83px;
+                       margin-left: 0;
+                       margin-right:0;
+                       font-family: $font-family;
+                       font-style: normal;
+                       font-size:16px;
+                       font-weight: 700;
+                       line-height: 26px;
+                       color:$color-three;
+                       text-transform: uppercase;
+                   }
+            &:last-of-type{
+            display: inline-block;
+            margin-top:80.02px;
+            margin-left: 0;
+            overflow: hidden;
+            }
+        }
+    .image{
+        background-image: url("../../assets/desktop/image-keyboard.jpg");
+        background-repeat:no-repeat;
+        background-size: 540px;
+        background-position: left 0 top 0;
+        height: 480px;
+        width: 100%;
+        margin-top: 79.6px;
+        margin-right: 29.82px;
+        margin-left: 0;
+        border-radius: 0;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+}
+.secondArticle{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    margin-top:0;
+    transform: rotate(0.04deg);
+    div{
+        &:first-of-type{
+                display:inline-block;
+                margin-top:255px;
+                margin-left: -414.71px;
+                border-radius: 15px;
+                overflow: hidden;
+        }
+        &:last-of-type{
+            display:flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            text-align:left;
+            font-family: $font-family;
+            font-style: normal;
+            height: 265px;
+            width: 255px;
+            margin-top:0;
+            margin-left:0;
+            margin-right: 0;
+            p{
+                &:first-of-type{
+                    display:block;
+                    height: 108px;
+                    width: 255px;
+                    font-weight: 900;
+                    font-size: 32px;
+                    line-height: 36px;
+                    text-transform: uppercase;
+                    margin: 141.81px 160.02px 0 124.84px;
+                }
+                &:last-of-type{
+                    display:inline-block;
+                    height: 130px;
+                    width: 255px;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 26px;
+                    margin: 26.81px 160.12px 0 124.72px;
+                }
+            }
+        }
+    }
+    .image-orange{
+        background-image: url('../../assets/desktop/image-phone-and-keyboard.jpg');
+        background-repeat:no-repeat;
+        background-size:255px;
+        background-position: left 0 top 0;
+        height: 480px;
+        width: 255px;
+        margin-left:29.82px;
+        margin-right: 0;
+        border-radius: 15px;   
+        box-shadow: inset 0 0 0px 1000px rgba(241, 103, 24, 0.75);
+    }
+    .image-keyboard{
+        background-image: url('../../assets/desktop/image-glass-and-keyboard.jpg');
+        background-repeat:no-repeat;
+        background-size:445px;
+        height: 480px;
+        width: 445px;
+        margin-left:29.64px;
+        margin-right: 0;
+        border-radius: 15px;
+    }
+    }
+    .nav{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: stretch;
+        min-height: 100%;
+        min-width: 1420px;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+        div{
+            p{
+                font-family: $font-family;
+                font-style:normal;
+                text-align: center;
+                margin-left: 0;
+                margin-right: 0;
+            }
+            .nav-text{
+                font-weight: 900;
+                margin-top:47.95px;
+                font-size: 24px;
+                line-height: 28px;
+                color: $color-button-primary-secondary;
+                text-transform: uppercase;
+                text-align: left;
+            }
+            .information-text{
+                font-weight: 500;
+                font-size:16px;
+                line-height: 26px;
+                color: $color-three;
+                margin-top:23.81px;
+                text-align: left;
+            }
+            &:nth-of-type(1){
+                height: 323px;
+                width: 17.25%;
+                margin-top:167.88px;
+                margin-left: 165.82px;
+            }
+            &:nth-of-type(2){
+                height: 323px;
+                width: 17.25%;
+                margin-top:167.88px;
+                margin-left:29.76px;
+            }
+            &:nth-of-type(3){
+                height: 323px;
+                width: 17.25%;
+                margin-top:167.88px;
+                margin-left:29.76px;
+            }
+            &:nth-of-type(4){
+                height: 323px;
+                width: 17.25%;
+                margin-top:167.88px;
+                margin-left:29.76px;
+                margin-right: 160.42px;
+            }
+            svg{
+                margin-left: 0;
+                margin-right: 0;
+                border-radius: 5px;
+                text-align: left;
+            }
+    }
+    }
+    footer{
+        display:flex;
+        justify-content: center;
+        text-align: center;
+        p{
+            font-family: $font-family;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 16px;
+            line-height: 26px;
+            color: $color-three;
+            margin: 0 auto 100px auto;
             span{
                 font-weight: 700;
             }

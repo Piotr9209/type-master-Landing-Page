@@ -15,5 +15,5 @@
 ** / .DS_Store
 .prettierignore
 node_modules
-README-template.md
-README.md
+README-template
+README
